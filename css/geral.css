@@ -1,0 +1,225 @@
+div.meuMenu{
+	background-color: #512da8;
+	padding: 15px;
+}
+
+div.aEsquerda{
+	float: left;
+}
+
+.aDireita{
+	float: right;
+}
+
+.textoBranco{
+	color: #fff;
+}
+
+.textoGrande{
+	font-size: 30px;
+}
+
+.textoMedio{
+	font-size: 17.5px;
+}
+
+div.card{
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+	#menuDesk {
+		display: none;
+	}
+}
+
+@media (min-width: 481px){
+	#menuMobile{
+		display: none;
+	}
+}
+
+#fixo{
+	border: 1px solid #e5e5e5;
+}
+
+#mostraMenuMobile{
+	padding: 5px;
+	padding-left: 38px;
+	background-color: #3273dc;
+	color: #fff;
+}
+
+#formAcesso{
+	padding: 15px;
+	background-color: #f5f5f5;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 0px 0 rgba(0, 0, 0, 0.19);
+	border-top: none;
+}
+
+#nomeConta{
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 0px 0 rgba(0, 0, 0, 0.19);
+	border-bottom: none;
+	background-color: #111;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px;
+	padding-left: 16px;
+}
+
+.aviso{
+	padding: 15px;
+	background-color: #ffea99;
+	color: #555;
+	border-radius: 0.3em; 	
+}
+
+li.itemMenu{
+	padding: 8px;
+}
+
+li.itemMenu:hover{
+	background-color: #e6e6e6;
+}
+
+.btnTotal{
+	width: 100%;
+}
+
+.div-conteudo {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #eee;
+}
+
+@media (min-width: 576px) {
+  .div-conteudo {
+    max-width: 840px;
+  }
+}
+
+@media (min-width: 768px) {
+  .div-conteudo {
+    width: 90%;
+  }
+}
+
+@media (min-width: 992px) {
+  .div-conteudo {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .div-conteudo {
+    max-width: 350px;
+  }
+}
+
+.div-conteudoHisto {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .div-conteudoHisto {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .div-conteudoHisto {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .div-conteudoHisto {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .div-conteudoHisto {
+    max-width: 1200px;
+  }
+}
+
+.textoVermelho{
+	color: #f44336; 
+}
+
+div.divAzul{
+	background-color: #f5f5f5;
+	border: 1px solid #ccc;
+	border-top: 2px solid #555;
+	border-right: 2px solid #555;
+}
+
+.notificacaoPreta{
+	padding: 20px;
+	color: #fff;
+	background-color: #111;
+}
+
+.notificacaoPreta h1.title, h1.subtitle{
+	color: #fff;
+}
+
+.notificacaoCrimson{
+	padding: 20px;
+	color: #fff;
+	background-color: #DC143C;
+}
+
+.seta-baixo:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 50px;
+  margin-right: 37px;
+  cursor: pointer;
+  width: 0; 
+  height: 0; 
+
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #1E90FF;
+}
+
+.notificacaoCrimson h1.title, h1.subtitle{
+	color: #fff;
+}
+
+.notificacaoOuro{
+	padding: 20px;
+	color: #000;
+	background-color: #FFD700;
+}
+
+.notificacaoOuro h1.title, h1.subtitle{
+	color: #000;
+}
+
+.notificacaoRoxo{
+	padding: 20px;
+	color: #fff;
+	background-color: #8B008B;
+}
+
+.notificacaoRoxo h1.title, h1.subtitle{
+	color: #fff;
+}
+
+#menuUsr{
+	background-color: #87CEFA;
+	padding: 15px;
+}
+
+#spanMenu{
+	cursor: pointer;
+}
